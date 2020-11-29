@@ -1,26 +1,9 @@
 <template>
   <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">rave-cafe</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+    <div class="img-wrap">
+      <NuxtLink to="/welcome">
+        <Logo />
+      </NuxtLink>
     </div>
   </div>
 </template>
@@ -34,9 +17,30 @@ export default {}
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background: radial-gradient(#4da7bb, #2e75f1, #34c3d6, #1c1c1c, #93deee);
+  background-size: 400% 400%;
+  animation: Gradient 14s ease-in-out infinite;
+  overflow: hidden;
+}
+
+.img-wrap {
+  width: 100%;
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 51% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 51% 0%;
+  }
 }
 
 .title {
@@ -44,9 +48,10 @@ export default {}
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
+  font-size: 30px;
+  color: var(--black);
   letter-spacing: 1px;
+  mix-blend-mode: difference;
 }
 
 .subtitle {
@@ -59,5 +64,8 @@ export default {}
 
 .links {
   padding-top: 15px;
+}
+
+body {
 }
 </style>
