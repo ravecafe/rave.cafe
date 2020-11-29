@@ -1,5 +1,9 @@
 <template>
-  <img class="logo" src="~/assets/rave.cafe.png" alt="rave.cafe logo" />
+  <div>
+    <NuxtLink to="/welcome">
+      <img class="logo" src="~/assets/rave.cafe.png" alt="rave.cafe logo" />
+    </NuxtLink>
+  </div>
 </template>
 
 <style>
