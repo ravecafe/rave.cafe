@@ -10,7 +10,7 @@
 export default {}
 </script>
 
-<style>
+<style scoped>
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -19,7 +19,7 @@ export default {}
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: radial-gradient(#4da7bb, #2ebaf1, #34c3d6);
+  background: radial-gradient(#212121, #222222, #1c1c1c, #131313);
   background-size: 130% 130%;
   background-position: center;
   overflow: hidden;

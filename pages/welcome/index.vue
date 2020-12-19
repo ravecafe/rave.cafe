@@ -33,18 +33,21 @@ ul {
   height: 99vh;
   overflow: hidden;
 }
+
 a {
   color: #fff;
   text-decoration: none;
+  transition: filter 500ms ease;
 }
 
 a:hover {
   text-decoration: none;
   filter: blur(10px);
+  transition: filter 500ms ease;
 }
 .welcome {
   color: #fff;
-  background: radial-gradient(#212121, #1c1c1c, #242424);
+  background: radial-gradient(#212121, #222222, #1c1c1c, #131313);
   background-size: 150% 130%;
   background-position: center;
   overflow: hidden;

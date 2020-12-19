@@ -10,16 +10,14 @@
 .logo {
   animation: 15s rotation infinite linear;
   margin: auto;
-  opacity: 0.4;
+  opacity: 0.2;
   height: 300px;
-  filter: blur(4px);
   transition: all 2s ease;
 }
 
 .logo:hover {
-  filter: blur(0px);
-  opacity: 0.6;
-  transition: all 2s ease;
+  opacity: 0.7;
+  transition: opacity 1s ease;
 }
 
 @keyframes rotation {
