@@ -19,9 +19,9 @@ export default {}
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: radial-gradient(#4da7bb, #2e75f1, #34c3d6, #1c1c1c, #93deee);
-  background-size: 400% 400%;
-  animation: Gradient 14s ease-in-out infinite;
+  background: radial-gradient(#4da7bb, #2ebaf1, #34c3d6);
+  background-size: 130% 130%;
+  background-position: center;
   overflow: hidden;
 }
 

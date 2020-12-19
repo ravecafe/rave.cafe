@@ -24,7 +24,7 @@ export default {}
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10% 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,8 +40,13 @@ a {
 
 a:hover {
   text-decoration: none;
+  filter: blur(10px);
 }
 .welcome {
   color: #fff;
+  background: radial-gradient(#212121, #1c1c1c, #242424);
+  background-size: 150% 130%;
+  background-position: center;
+  overflow: hidden;
 }
 </style>
