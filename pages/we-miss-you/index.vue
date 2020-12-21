@@ -1,7 +1,9 @@
 <template>
   <section class="container">
-    <h1>we miss you</h1>
-    <Logo height="50" />
+    <h1 class="title-right">we miss you</h1>
+    <div class="logo-wrap">
+      <Logo height="50" />
+    </div>
     <section class="month-cell">
       <h2>01 - january</h2>
       <img src="~/assets/miss-u/01/000065770010.jpg" />
@@ -69,6 +71,12 @@ export default {}
 </script>
 
 <style scoped>
+.title-right {
+  text-align: right;
+}
+.logo-wrap {
+  margin: 5% auto 0;
+}
 .container {
   display: flex;
   max-width: 800px;
