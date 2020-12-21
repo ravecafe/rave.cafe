@@ -2,45 +2,64 @@
   <section class="container">
     <h1>we miss you</h1>
     <Logo height="50" />
-    <p>
-      we wanted to put together a snapshot of our year and share it with all of
-      you
-    </p>
     <section class="month-cell">
-      <h2>january</h2>
-      <img src="~/assets/filler.jpg" />
-      <p>
-        yurr i get turnt up. we wanted to. we wanted to put together a snapshot
-        of our year and share it with all of you put together a snapshot of our
-        year and share it with all of you yurr i get turnt up. we wanted to. we
-        wanted to put together a snapshot of our year and share it with all of
-        you put together a snapshot of our year and share it with all of you
-      </p>
-      <p>Val Young - Seduction</p>
+      <h2>01 - january</h2>
+      <img src="~/assets/miss-u/01/000065770010.jpg" />
+      <img src="~/assets/miss-u/01/DSCF0446.JPG" />
+      <img src="~/assets/miss-u/01/DSCF0471.JPG" />
     </section>
     <section class="month-cell">
-      <h2>february</h2>
-      <img src="~/assets/filler.jpg" />
-      <p>
-        yurr i get turnt up. we wanted to. we wanted to put together a snapshot
-        of our year and share it with all of you put together a snapshot of our
-        year and share it with all of you yurr i get turnt up. we wanted to. we
-        wanted to put together a snapshot of our year and share it with all of
-        you put together a snapshot of our year and share it with all of you
-      </p>
-      <p>Val Young - Seduction</p>
+      <h2>02 - february</h2>
+      <img src="~/assets/miss-u/02/DSCF0510.JPG" />
     </section>
     <section class="month-cell">
-      <h2>march</h2>
-      <img src="~/assets/filler.jpg" />
-      <p>
-        yurr i get turnt up. we wanted to. we wanted to put together a snapshot
-        of our year and share it with all of you put together a snapshot of our
-        year and share it with all of you yurr i get turnt up. we wanted to. we
-        wanted to put together a snapshot of our year and share it with all of
-        you put together a snapshot of our year and share it with all of you
-      </p>
-      <p>Val Young - Seduction</p>
+      <h2>03 - march</h2>
+      <img src="~/assets/miss-u/03/000326160013.jpg" />
+      <img src="~/assets/miss-u/03/000326160030.jpg" />
+      <img src="~/assets/miss-u/03/DSCF0659.JPG" />
+    </section>
+    <section class="month-cell">
+      <h2>04 - april</h2>
+      <img src="~/assets/miss-u/04/DSCF0514.JPG" />
+    </section>
+    <section class="month-cell">
+      <h2>05 - may</h2>
+      <img src="~/assets/miss-u/05/DSCF0638.JPG" />
+      <img src="~/assets/miss-u/05/DSCF0782.JPG" />
+    </section>
+    <section class="month-cell">
+      <h2>06 - june</h2>
+      <img src="~/assets/miss-u/06/000125600032.jpg" />
+      <img src="~/assets/miss-u/06/DSCF0802.JPG" />
+    </section>
+    <section class="month-cell">
+      <h2>07 - july</h2>
+      <img src="~/assets/miss-u/07/DSCF0890.JPG" />
+      <img src="~/assets/miss-u/07/000125560023.jpg" />
+      <img src="~/assets/miss-u/07/000326160031.jpg" />
+    </section>
+    <section class="month-cell">
+      <h2>08 - august</h2>
+      <img src="~/assets/miss-u/08/000125550014.jpg" />
+      <img src="~/assets/miss-u/08/000125570026.jpg" />
+    </section>
+    <section class="month-cell">
+      <h2>09 - september</h2>
+      <img src="~/assets/miss-u/09/000125570014 (1).jpg" />
+      <img src="~/assets/miss-u/09/000125600004.jpg" />
+    </section>
+    <section class="month-cell">
+      <h2>10 - october</h2>
+      <img src="~/assets/miss-u/10/000133070027.jpg" />
+      <img src="~/assets/miss-u/10/000133070029.jpg" />
+    </section>
+    <section class="month-cell">
+      <h2>11 - november</h2>
+      <img src="~/assets/miss-u/11/000326100020.jpg" />
+    </section>
+    <section class="month-cell">
+      <h2>12 - december</h2>
+      <img src="~/assets/miss-u/12/DSCF1282.JPG" />
     </section>
   </section>
 </template>
