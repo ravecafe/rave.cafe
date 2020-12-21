@@ -1,14 +1,10 @@
 <template>
   <div class="container">
     <div class="img-wrap">
-      <Logo />
+      <Logo height="300" />
     </div>
   </div>
 </template>
-
-<script>
-export default {}
-</script>
 
 <style scoped>
 .container {

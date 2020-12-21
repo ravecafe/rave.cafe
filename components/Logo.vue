@@ -1,17 +1,38 @@
 <template>
   <div>
     <NuxtLink to="/welcome">
-      <img class="logo" src="~/assets/rave.cafe.png" alt="rave.cafe logo" />
+      <img
+        class="logo"
+        :style="style"
+        src="~/assets/rave.cafe.png"
+        alt="rave.cafe logo"
+      />
     </NuxtLink>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'Logo',
+  props: {
+    height: {
+      type: Number,
+      default: 100,
+    },
+  },
+  computed: {
+    style() {
+      return `height: ${this.height}px;`
+    },
+  },
+}
+</script>
 
 <style>
 .logo {
   animation: 15s rotation infinite linear;
   margin: auto;
   opacity: 0.2;
-  height: 300px;
   transition: all 2s ease;
 }
 
