@@ -16,8 +16,8 @@ export default {
   name: 'Logo',
   props: {
     height: {
-      type: Number,
-      default: 100,
+      type: String,
+      default: '100',
     },
   },
   computed: {
