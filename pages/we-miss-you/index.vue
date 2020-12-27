@@ -121,9 +121,6 @@
       <img
         src="~/assets/miss-u/05/E01FCCF1-201D-4B5F-B352-C16C1F2F8985_1_105_c.jpeg"
       />
-      <img
-        src="~/assets/miss-u/05/303C0A41-235B-494C-9AA1-6D17642DF761_1_105_c.jpeg"
-      />
       <img src="~/assets/miss-u/05/DSCF0782.820f2cc.jpg" />
     </section>
     <section class="month-cell">
