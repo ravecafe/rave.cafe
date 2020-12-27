@@ -3,13 +3,13 @@
     <nav>
       <ul>
         <li>
-          <NuxtLink to="/menu">menu</NuxtLink>
+          <NuxtLink to="/soon">menu</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/music">music</NuxtLink>
+          <NuxtLink to="/soon">music</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/garden">garden</NuxtLink>
+          <NuxtLink to="/soon">garden</NuxtLink>
         </li>
       </ul>
     </nav>
