@@ -69,6 +69,7 @@
         </div>
       </form>
     </div>
+    <h1>2020 in music</h1>
     <iframe
       width="100%"
       height="166"
@@ -77,9 +78,29 @@
       allow="autoplay"
       src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/953332642&color=%232c2c2c&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"
     ></iframe>
+    <ul>
+      <li>01 - January: <br />Val Young - Seduction</li>
+      <li>02 - February: <br />Womack & Womack - Teardrops</li>
+      <li>03 - March: <br />Shannon - Give Me Tonight</li>
+      <li>04 - April: <br />Rene & Angela - I'll Be Good</li>
+      <li>05 - May: <br />Kleeer - Tonight</li>
+      <li>06 - June: <br />Future Sounds of London - Papua New Guinea</li>
+      <li>
+        07 - July: <br />
+        Great Ghost - Strange Encounter With Light (feat. Liai)
+      </li>
+      <li>
+        08 - August: <br />
+        Stray - When It Rains
+      </li>
+      <li>09 - September: <br />Eris Drew - See You In Snow</li>
+      <li>10 - October: <br />Andy Stott - How It Was</li>
+      <li>11 - November: <br />Psychic Mirrors - Midnight Special</li>
+      <li>12 - December: <br />Pebbles - Mercedes Boy</li>
+    </ul>
+    <h1 class="add-top">2020 in images</h1>
     <section class="month-cell">
       <h2>01 - january</h2>
-      <p>Val Young - Seduction</p>
       <img src="~/assets/miss-u/01/000206700019.jpg" />
       <img
         class="vertical"
@@ -92,21 +113,18 @@
     </section>
     <section class="month-cell">
       <h2>02 - february</h2>
-      <p>Womack & Womack - Teardrops</p>
       <img src="~/assets/miss-u/02/000015750037.jpg" />
       <img src="~/assets/miss-u/02/000206700014.jpg" />
       <img src="~/assets/miss-u/02/DSCF0510.5132255.jpg" />
     </section>
     <section class="month-cell">
       <h2>03 - march</h2>
-      <p>Shannon - Give Me Tonight</p>
       <img src="~/assets/miss-u/03/000326160030.7106187.jpg" />
       <img src="~/assets/miss-u/03/000326160013.9f0093b.jpg" />
       <img src="~/assets/miss-u/03/DSCF0659.9557cd3.jpg" />
     </section>
     <section class="month-cell">
       <h2>04 - april</h2>
-      <p>Rene & Angela - I'll Be Good</p>
       <img src="~/assets/miss-u/04/Screen_Shot_2020-12-23_at_9.38.20_PM.jpg" />
       <img src="~/assets/miss-u/04/DSCF0514.162801c.jpg" />
       <img
@@ -115,7 +133,6 @@
     </section>
     <section class="month-cell">
       <h2>05 - may</h2>
-      <p>Kleer - Tonight</p>
       <img src="~/assets/miss-u/05/A2665669-AA80-4353-BE14-6B7075489E8A.jpg" />
       <img src="~/assets/miss-u/05/DSCF0638.b9f01c2.jpg" />
       <img
@@ -125,7 +142,6 @@
     </section>
     <section class="month-cell">
       <h2>06 - june</h2>
-      <p>Future Sounds of London - Papua New Guinea</p>
       <img src="~/assets/miss-u/06/DSCF0802.eedcbce.jpg" />
       <img src="~/assets/miss-u/06/DSCF0755.jpg" />
       <img
@@ -135,7 +151,6 @@
     </section>
     <section class="month-cell">
       <h2>07 - july</h2>
-      <p>Great Ghost - Strange Encounter With Light (feat. Liai)</p>
       <img src="~/assets/miss-u/07/000125560023.ef92a11.jpg" />
       <img src="~/assets/miss-u/07/DSCF0890.c942930.jpg" />
       <img src="~/assets/miss-u/07/AC127437-0260-4C1F-82E8-E9AB8BB79609.jpg" />
@@ -146,23 +161,15 @@
     </section>
     <section class="month-cell">
       <h2>08 - august</h2>
-      <p>Stray - When It Rains</p>
       <img src="~/assets/miss-u/08/000125570026.3252acb.jpg" />
       <img src="~/assets/miss-u/08/IMG_6184.jpeg" />
       <img src="~/assets/miss-u/08/000125630029.jpg" />
-      <video muted autoplay loop class="media-center">
-        <source
-          src="https://media.giphy.com/media/XETrg0yyG3jOYrADq9/giphy.mp4"
-          type="video/mp4"
-        />
-      </video>
       <img src="~/assets/miss-u/08/000125550014.b636b6b.jpg" />
       <img src="~/assets/miss-u/08/F7DC387A-79CA-4D01-BB5A-03099A3579AB.jpeg" />
       <img src="~/assets/miss-u/08/000125570011.jpg" />
     </section>
     <section class="month-cell">
       <h2>09 - september</h2>
-      <p>Eris Drew - See You In Snow</p>
       <img src="~/assets/miss-u/09/000125630011.jpg" />
       <img
         src="~/assets/miss-u/09/B3EF14C7-8CE4-4C5A-97D0-84F8639A69EE_1_105_c.jpeg"
@@ -172,14 +179,12 @@
     </section>
     <section class="month-cell">
       <h2>10 - october</h2>
-      <p>Andy Stott - How It Was</p>
       <img src="~/assets/miss-u/10/3B76937C-E1BE-41ED-9936-0DF97452AC40.jpg" />
       <img src="~/assets/miss-u/10/000133070029.025387a.jpg" />
       <img src="~/assets/miss-u/10/000133070027.d41eec8.jpg" />
     </section>
     <section class="month-cell">
       <h2>11 - november</h2>
-      <p>Psychic Mirrors - Midnight Special</p>
       <img src="~/assets/miss-u/11/IMG_2713 (1).jpg" />
       <img
         src="~/assets/miss-u/11/E2561389-4768-436B-BA3F-66A45D8226EA_1_105_c.jpeg"
@@ -193,7 +198,6 @@
     </section>
     <section class="month-cell">
       <h2>12 - december</h2>
-      <p>Pebbles - Mercedes Boy</p>
       <img src="~/assets/miss-u/12/7AF06E25-505F-4447-82B6-1F584E31E741.jpg" />
       <img src="~/assets/miss-u/12/DSCF1282.fcac765.jpg" />
       <img src="~/assets/miss-u/12/DSCF0446.d7e148e.jpg" />
@@ -216,6 +220,7 @@ export default {}
 }
 p {
   margin: 10px 0;
+  text-align: center;
 }
 .center {
   text-align: center;
@@ -234,7 +239,7 @@ a:hover {
   text-align: center;
 }
 iframe {
-  margin: 10px 0 40px;
+  margin: 10px 0 20px;
   opacity: 0.7;
 }
 .container {
@@ -259,10 +264,15 @@ iframe {
   margin-right: 0;
   margin: 2% 0;
 }
-.month-cell h2,
-h1 {
+.month-cell h2 {
   margin: 3% 0;
   font-size: 2.25rem;
+}
+h1 {
+  font-size: 2.75rem;
+}
+.add-top {
+  margin-top: 30px;
 }
 .month-cell p {
   margin: 2% 10% 2% 0;
@@ -285,7 +295,6 @@ h1 {
   display: inline-block;
   border: 1px solid #fff;
   padding: 1rem;
-  margin: 20px;
   width: 100%;
   font-size: 2rem;
   text-decoration: none;
@@ -298,11 +307,19 @@ h1 {
   transition: background 250ms ease-in-out, transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
+  margin-left: 10px;
 }
-
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 10px 0;
+  font-size: 1rem;
+}
 .button:focus {
   outline: 1px solid #fff;
   outline-offset: -4px;
@@ -317,7 +334,7 @@ button:active {
 }
 #mc_embed_signup_scroll {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
