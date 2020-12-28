@@ -1,13 +1,13 @@
 <template>
   <div>
-    <NuxtLink to="/welcome">
-      <img
-        class="logo"
-        :style="style"
-        src="~/assets/rave.cafe.png"
-        alt="rave.cafe logo"
-      />
-    </NuxtLink>
+    <!-- <NuxtLink to="/"> -->
+    <img
+      class="logo"
+      :style="style"
+      src="~/assets/rave.cafe.png"
+      alt="rave.cafe logo"
+    />
+    <!-- </NuxtLink> -->
   </div>
 </template>
 
