@@ -200,8 +200,6 @@
       <h2>12 - december</h2>
       <img src="~/assets/miss-u/12/7AF06E25-505F-4447-82B6-1F584E31E741.jpg" />
       <img src="~/assets/miss-u/12/DSCF1282.fcac765.jpg" />
-      <img src="~/assets/miss-u/12/DSCF0446.d7e148e.jpg" />
-      <img src="~/assets/miss-u/12/DSCF0471.82135ae.jpg" />
     </section>
   </section>
 </template>
@@ -220,7 +218,7 @@ export default {}
 }
 p {
   margin: 10px 0;
-  text-align: center;
+  text-align: left;
 }
 .center {
   text-align: center;
@@ -266,10 +264,10 @@ iframe {
 }
 .month-cell h2 {
   margin: 3% 0;
-  font-size: 2.25rem;
+  font-size: 1.75rem;
 }
 h1 {
-  font-size: 2.75rem;
+  font-size: 2.25rem;
 }
 .add-top {
   margin-top: 30px;
