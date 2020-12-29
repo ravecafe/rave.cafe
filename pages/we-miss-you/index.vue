@@ -200,6 +200,7 @@
       <h2>12 - december</h2>
       <img src="~/assets/miss-u/12/7AF06E25-505F-4447-82B6-1F584E31E741.jpg" />
       <img src="~/assets/miss-u/12/DSCF1282.fcac765.jpg" />
+      <img src="~/assets/miss-u/12/IMG_0986.jpg" />
     </section>
   </section>
 </template>
