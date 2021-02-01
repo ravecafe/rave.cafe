@@ -109,11 +109,28 @@ export default {}
   .garden {
     position: relative;
     width: 100%;
-    height: 500vh;
+    height: 220vh;
     overflow: hidden;
+  }
+  .flowers {
+    width: 40%;
+    opacity: 0.7;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 10px;
+    top: 12%;
   }
   .table {
     width: 90vw;
+  }
+  .floor {
+    bottom: 90vh;
+  }
+  .flowy {
+    top: 60%;
+    transform: rotate(0);
+    width: 100%;
   }
 }
 </style>
