@@ -9,7 +9,7 @@
           <NuxtLink to="/music">music</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/soon">garden</NuxtLink>
+          <NuxtLink to="/garden">garden</NuxtLink>
         </li>
       </ul>
     </nav>
