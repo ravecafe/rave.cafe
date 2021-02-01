@@ -1,8 +1,8 @@
 <template>
-  <section>
-    <h1>music</h1>
+  <section class="container">
+    <h1 class="title">music</h1>
     <ul>
-      <li>001: L&D</li>
+      <li><NuxtLink to="/music/001" class="mix-link">001: L&D </NuxtLink></li>
     </ul>
   </section>
 </template>
@@ -11,4 +11,14 @@
 export default {}
 </script>
 
-<style></style>
+<style scoped>
+.mix-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.mix-link:hover {
+  text-decoration: underline;
+}
+</style>

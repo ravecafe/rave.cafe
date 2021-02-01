@@ -6,7 +6,7 @@
           <NuxtLink to="/soon">menu</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/soon">music</NuxtLink>
+          <NuxtLink to="/music">music</NuxtLink>
         </li>
         <li>
           <NuxtLink to="/soon">garden</NuxtLink>

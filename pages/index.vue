@@ -1,12 +1,14 @@
 <template>
   <div class="container">
     <div class="img-wrap">
-      <Logo height="300" />
+      <NuxtLink to="/welcome">
+        <Logo height="120" />
+      </NuxtLink>
     </div>
   </div>
 </template>
 
-<style scoped>
+<style>
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -58,8 +60,5 @@
 
 .links {
   padding-top: 15px;
-}
-
-body {
 }
 </style>
