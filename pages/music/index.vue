@@ -15,7 +15,7 @@ export default {}
 .mix-link {
   color: #fff;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .mix-link:hover {
