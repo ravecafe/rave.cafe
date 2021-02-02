@@ -2,7 +2,7 @@
   <div class="container">
     <div class="img-wrap">
       <NuxtLink to="/welcome">
-        <Logo height="120" />
+        <Logo height="200" />
       </NuxtLink>
     </div>
   </div>
