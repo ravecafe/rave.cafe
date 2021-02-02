@@ -37,13 +37,12 @@ ul {
 a {
   color: #fff;
   text-decoration: none;
-  transition: filter 500ms ease;
+  transition: opacity 400ms ease;
 }
 
 a:hover {
-  text-decoration: none;
-  filter: blur(10px);
-  transition: filter 500ms ease;
+  opacity: 0.7;
+  transition: opacity 400ms ease;
 }
 .welcome {
   color: #fff;

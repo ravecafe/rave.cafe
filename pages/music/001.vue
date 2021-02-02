@@ -1,7 +1,7 @@
 <template>
   <section class="threshold">
     <h1 class="title">001: L&D</h1>
-    <img src="~/assets/001/000162310027.jpg" />
+    <img class="header-img" src="~/assets/001/000162310027.jpg" />
     <section class="player">
       <audio controls>
         <source
@@ -37,8 +37,10 @@
       </p>
 
       <img src="~/assets/001/IMG_1076.JPG" />
-      <p>Recorded on 12.29.20 on 2x XDJ-700s and a Xone 23</p>
       <p>
+        Recorded on 12.29.20 on 2x XDJ-700s and a Xone 23
+        <br />
+        <br />
         We played a set at Dark Matter Immersive's Garden of Eden installation
         at the cell. The installation is based around Joseph Campbell's Hero's
         Journey. The exhibition itself and 2020 were coming to a close so we
@@ -80,6 +82,10 @@ export default {}
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.header-img {
+  margin: 50px 0;
 }
 
 .threshold p {
