@@ -1,47 +1,64 @@
 <template>
   <section class="garden">
-    <a
-      href="https://www.notion.so/feeling-61c7217ffb8249c2a801474679ee7854"
-      target="_blank"
-      rel="nooopener"
-    >
-      <img class="snake" src="~/assets/garden/sanseveria.png" />
-    </a>
-    <a
-      href="https://www.notion.so/tasting-6ff593e0039645b288226215f22ba4fb"
-      target="_blank"
-      rel="nooopener"
-    >
-      <img
-        class="jelly"
-        src="~/assets/garden/jellyfish.png"
+    <h1 class="mu-title">garden</h1>
+    <p>
+      Welcome to our indoor garden. <br />
+      Our plants enjoy infared light & words of affirmation. <br />Seat yourself
+      anywhere you'd like.
+    </p>
+    <div class="plant">
+      <a
+        href="https://www.notion.so/feeling-61c7217ffb8249c2a801474679ee7854"
         target="_blank"
         rel="nooopener"
-      />
-    </a>
-    <a
-      href="https://www.notion.so/smelling-befcd7bd20c646f5b24e0db2410f83df"
-      target="_blank"
-      rel="nooopener"
-    >
-      <img class="floor" src="~/assets/garden/IMG_3021.png" />
-    </a>
-    <a
-      href="https://www.notion.so/seeing-0d1ed9d120534498bc8b0f51438f9e5e"
-      target="_blank"
-      rel="nooopener"
-    >
-      <img class="flowers" src="~/assets/garden/flowers.png" />
-    </a>
-    <a
-      href="https://www.notion.so/hearing-ee967f59022945ddb02274302f455973"
-      target="_blank"
-      rel="nooopener"
-    >
-      <img class="flowy" src="~/assets/garden/flowy.png" />
-    </a>
-
-    <img class="table" src="~/assets/garden/table.png" />
+      >
+        <span>feeling </span>
+        <img src="~/assets/garden/DSCF1387.jpg" alt="plant" />
+      </a>
+    </div>
+    <div class="plant">
+      <a
+        href="https://www.notion.so/tasting-6ff593e0039645b288226215f22ba4fb"
+        target="_blank"
+        rel="nooopener"
+      >
+        <span>tasting</span>
+        <img class="floor" src="~/assets/garden/DSCF1388.jpg" alt="plant" />
+      </a>
+    </div>
+    <div class="plant">
+      <a
+        href="https://www.notion.so/smelling-befcd7bd20c646f5b24e0db2410f83df"
+        target="_blank"
+        rel="nooopener"
+      >
+        <span>smelling</span>
+        <img src="~/assets/garden/DSCF1397.jpg" alt="plant" />
+      </a>
+    </div>
+    <div class="plant">
+      <a
+        href="https://www.notion.so/seeing-0d1ed9d120534498bc8b0f51438f9e5e"
+        target="_blank"
+        rel="nooopener"
+      >
+        <span>seeing</span>
+        <img src="~/assets/garden/DSCF1404.jpg" alt="plant" />
+      </a>
+    </div>
+    <div class="plant">
+      <a
+        href="https://www.notion.so/hearing-ee967f59022945ddb02274302f455973"
+        target="_blank"
+        rel="nooopener"
+      >
+        <span>hearing</span>
+        <img src="~/assets/garden/DSCF1414.jpg" alt="plant" />
+      </a>
+    </div>
+    <div class="table-wrapper">
+      <img class="table" src="~/assets/garden/table.png" alt="plant" />
+    </div>
   </section>
 </template>
 
@@ -49,88 +66,79 @@
 export default {}
 </script>
 
-<style>
+<style scoped>
 .garden {
-  position: relative;
   width: 100%;
-  height: 100vh;
   overflow: hidden;
 }
-.snake {
-  width: 300px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  opacity: 0.7;
+.mu-title {
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  display: block;
+  font-weight: normal;
+  font-size: 80px;
+  color: #fff;
+  width: 80%;
+  border-bottom: 1px solid #fff;
+  letter-spacing: 1px;
+  mix-blend-mode: difference;
+  padding: 20px;
+  margin-left: 10%;
+  margin-bottom: 20px;
+  text-align: center;
 }
-.jelly {
-  width: 300px;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  transform: rotate(30deg);
-  opacity: 0.8;
+
+p {
+  text-align: center;
 }
-.floor {
-  position: absolute;
-  width: 350px;
-  bottom: 0;
-  right: 0;
-  opacity: 0.6;
+
+.garden img {
+  width: 80%;
+  position: relative;
+  left: 10%;
+  margin: 5% 0;
 }
-.flowers {
+.plant {
+  position: relative;
+}
+.plant span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+}
+a:hover img {
+  mix-blend-mode: multiply;
+}
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+img.table {
   width: 200px;
-  opacity: 0.7;
-  position: absolute;
-  margin: 0 auto;
   left: 0;
-  right: 10px;
-  top: 30vh;
 }
-.flowy {
-  opacity: 0.7;
-  position: absolute;
-  width: 400px;
-  margin: 0 auto;
-  left: 0;
-  top: 0;
-  transform: rotate(90deg);
+img.table:hover {
+  animation: rotation 5s infinite linear;
 }
-.table {
-  opacity: 0.9;
-  position: absolute;
-  width: 50vw;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: 40vh;
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
+
 @media only screen and (max-width: 600px) {
-  .garden {
-    position: relative;
-    width: 100%;
-    height: 220vh;
-    overflow: hidden;
+  .plant span {
+    font-size: 3rem;
   }
-  .flowers {
-    width: 40%;
-    opacity: 0.7;
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 10px;
-    top: 12%;
-  }
-  .table {
-    width: 90vw;
-  }
-  .floor {
-    bottom: 90vh;
-  }
-  .flowy {
-    top: 60%;
-    transform: rotate(0);
-    width: 100%;
+  a:hover img {
+    mix-blend-mode: none;
   }
 }
 </style>
