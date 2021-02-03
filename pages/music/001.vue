@@ -88,6 +88,16 @@ export default {}
   margin: 50px 0;
 }
 
+.title {
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  display: block;
+  font-weight: 300;
+  font-size: 30px;
+  color: var(--black);
+  letter-spacing: 1px;
+  mix-blend-mode: difference;
+}
 .threshold p {
   margin: 5% auto;
   max-width: 500px;
