@@ -1,7 +1,9 @@
 <template>
   <section class="soon">
     <h1>soon</h1>
-    <Logo height="30" />
+    <NuxtLink to="/welcome">
+      <Logo height="30" />
+    </NuxtLink>
   </section>
 </template>
 

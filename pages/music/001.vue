@@ -1,6 +1,6 @@
 <template>
   <section class="threshold">
-    <h1 class="title">001: L&D</h1>
+    <h1 class="mu-title">001: L&D</h1>
     <img class="header-img" src="~/assets/001/000162310027.jpg" />
     <section class="player">
       <audio controls>
@@ -42,12 +42,11 @@
         <br />
         <br />
         We played a set at Dark Matter Immersive's Garden of Eden installation
-        at the cell. The installation is based around Joseph Campbell's Hero's
-        Journey. The exhibition itself and 2020 were coming to a close so we
-        focused our energy on the moment in which one arrives back to integrate
-        the wisdom gained on the journey - the return threshold. A threshold of
-        becoming we all encounter each day from where we are directing our
-        energy. How do we reintegrate the wisdom we gain each day?
+        at the cell. The installation is based around Joseph Campbell's The
+        Hero's Journey. The exhibition itself and 2020 were coming to a close so
+        we focused our energy on the moment in which one arrives back to
+        integrate the wisdom gained on the journey - the return threshold. How
+        do we reintegrate the wisdom we gain each day?
       </p>
       <img src="~/assets/001/IMG_1075.JPG" />
       <img src="~/assets/001/000162310029.jpg" />
@@ -65,6 +64,9 @@
         What fulfills you?
       </p>
     </section>
+    <NuxtLink to="/welcome">
+      <Logo height="30" />
+    </NuxtLink>
   </section>
 </template>
 
@@ -88,16 +90,21 @@ export default {}
   margin: 50px 0;
 }
 
-.title {
+.mu-title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
-  font-weight: 300;
-  font-size: 30px;
-  color: var(--black);
+  font-weight: normal;
+  font-size: 80px;
+  color: #fff;
+  width: 80%;
   letter-spacing: 1px;
   mix-blend-mode: difference;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
+
 .threshold p {
   margin: 5% auto;
   max-width: 500px;
