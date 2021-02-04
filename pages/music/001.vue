@@ -67,6 +67,9 @@
     <NuxtLink to="/welcome">
       <Logo height="30" />
     </NuxtLink>
+    <br />
+    <br />
+    <br />
   </section>
 </template>
 

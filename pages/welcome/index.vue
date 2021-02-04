@@ -41,14 +41,22 @@ a {
 }
 
 a:hover {
-  opacity: 0.7;
+  opacity: 0.5;
   transition: opacity 400ms ease;
 }
+
 .welcome {
   color: #fff;
   background: #212121;
   background-size: 150% 130%;
   background-position: center;
   overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  a:hover {
+    opacity: 1;
+    transition: opacity 400ms ease;
+  }
 }
 </style>
