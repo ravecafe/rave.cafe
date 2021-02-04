@@ -82,7 +82,6 @@ export default {}
   font-size: 80px;
   color: #fff;
   width: 80%;
-  border-bottom: 1px solid #fff;
   letter-spacing: 1px;
   mix-blend-mode: difference;
   padding: 20px;

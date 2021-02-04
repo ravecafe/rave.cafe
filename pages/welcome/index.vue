@@ -46,7 +46,7 @@ a:hover {
 }
 .welcome {
   color: #fff;
-  background: radial-gradient(#212121, #222222, #1c1c1c, #131313);
+  background: #212121;
   background-size: 150% 130%;
   background-position: center;
   overflow: hidden;

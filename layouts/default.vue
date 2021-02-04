@@ -52,7 +52,7 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: radial-gradient(#212121, #222222, #1c1c1c, #131313);
+  background: #212121;
   background-size: 130% 130%;
   background-position: center;
   overflow: hidden;

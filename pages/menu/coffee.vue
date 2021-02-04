@@ -66,7 +66,7 @@ li {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 100%;
-  background: radial-gradient(#212121, #222222, #1c1c1c, #131313);
+  background: #212121;
   color: #fff;
   text-align: center;
   border-radius: 10px;
