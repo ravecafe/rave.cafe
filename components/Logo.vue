@@ -3,7 +3,7 @@
     <img
       class="logo"
       :style="style"
-      src="~/assets/rave.cafe.png"
+      src="~/assets/rc-smile.png"
       alt="rave.cafe logo"
     />
   </div>
