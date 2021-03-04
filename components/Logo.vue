@@ -36,7 +36,7 @@ export default {
 
 .logo:hover {
   opacity: 0.7;
-  transition: opacity 1s ease;
+  transition: opacity 2s ease;
 }
 
 @keyframes rotation {
