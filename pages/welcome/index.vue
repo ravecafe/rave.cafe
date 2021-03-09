@@ -1,18 +1,18 @@
 <template>
-  <section class="welcome">
-    <nav>
-      <ul>
-        <li>
-          <NuxtLink to="/soon">menu</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/music">music</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/garden">garden</NuxtLink>
-        </li>
-      </ul>
-    </nav>
+  <section class="cafe">
+    <div class="gradient-shift"></div>
+    <div class="link-container">
+      <NuxtLink to="/mixes" class="nav-link">
+        <img class="table back" src="~/assets/rave-cafe.png" alt="cafe table" />
+        <span class="nav-txt mixes">mixes</span>
+      </NuxtLink>
+    </div>
+    <div class="link-container">
+      <NuxtLink to="/playlists" class="nav-link">
+        <img class="table" src="~/assets/rave-cafe.png" alt="cafe table" />
+        <span class="nav-txt playlists">playlists</span>
+      </NuxtLink>
+    </div>
   </section>
 </template>
 
@@ -21,42 +21,114 @@ export default {}
 </script>
 
 <style scoped>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 10% 0;
+.cafe {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  font-size: 80px;
-  height: 99vh;
-  overflow: hidden;
+  margin-top: 20%;
 }
 
-a {
-  color: #fff;
-  text-decoration: none;
-  transition: opacity 400ms ease;
+.table {
+  width: 400px;
+  height: auto;
+  display: block;
 }
 
-a:hover {
-  opacity: 0.5;
-  transition: opacity 400ms ease;
+.link-container {
+  position: relative;
+  width: 400px;
 }
 
-.welcome {
-  color: #fff;
-  background: #212121;
-  background-size: 150% 130%;
-  background-position: center;
-  overflow: hidden;
+.nav-txt {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 45px;
+  mix-blend-mode: difference;
 }
 
-@media only screen and (max-width: 600px) {
-  a:hover {
-    opacity: 1;
-    transition: opacity 400ms ease;
+.nav-txt:hover {
+  display: block;
+}
+
+.nav-txt.mixes {
+  margin-top: 1.75%;
+}
+.nav-txt.playlists {
+  margin-top: 6%;
+}
+
+.table:hover + .nav-txt {
+  display: block;
+}
+
+.table.back {
+  width: 280px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .cafe {
+    border: 1px solid cyan;
+  }
+}
+
+.gradient-shift {
+  position: fixed;
+  filter: blur(100px);
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(356deg, #827e6f, #4f5453, #1a1a1a, #324531);
+  background-size: 800% 800%;
+  -webkit-animation: cafeShift 54s ease infinite;
+  -moz-animation: cafeShift 54s ease infinite;
+  -o-animation: cafeShift 54s ease infinite;
+  animation: cafeShift 54s ease infinite;
+}
+@-webkit-keyframes cafeShift {
+  0% {
+    background-position: 0% 19%;
+  }
+  50% {
+    background-position: 100% 82%;
+  }
+  100% {
+    background-position: 0% 19%;
+  }
+}
+@-moz-keyframes cafeShift {
+  0% {
+    background-position: 0% 19%;
+  }
+  50% {
+    background-position: 100% 82%;
+  }
+  100% {
+    background-position: 0% 19%;
+  }
+}
+@-o-keyframes cafeShift {
+  0% {
+    background-position: 0% 19%;
+  }
+  50% {
+    background-position: 100% 82%;
+  }
+  100% {
+    background-position: 0% 19%;
+  }
+}
+@keyframes cafeShift {
+  0% {
+    background-position: 0% 19%;
+  }
+  50% {
+    background-position: 100% 82%;
+  }
+  100% {
+    background-position: 0% 19%;
   }
 }
 </style>

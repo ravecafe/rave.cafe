@@ -1,8 +1,8 @@
 <template>
   <section class="container">
-    <h1 class="mu-title">music</h1>
+    <h1 class="mu-title">mixes</h1>
     <ul>
-      <li class="mix-link">001: <NuxtLink to="/music/001">L&D </NuxtLink></li>
+      <li class="mix-link">001: <NuxtLink to="/mixes/001">L&D </NuxtLink></li>
     </ul>
   </section>
 </template>
