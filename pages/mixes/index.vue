@@ -25,6 +25,7 @@ export default {}
   padding: 20px;
   margin-bottom: 20px;
 }
+
 .mix-link {
   color: #fff;
   text-decoration: none;

@@ -39,13 +39,14 @@ export default {}
 }
 
 .nav-txt {
-  display: none;
   position: absolute;
-  top: 0;
+  top: 10%;
   left: 50%;
   transform: translateX(-50%);
   font-size: 45px;
   mix-blend-mode: difference;
+  opacity: 0;
+  transition: opacity 400ms ease;
 }
 
 .nav-txt:hover {
@@ -53,14 +54,15 @@ export default {}
 }
 
 .nav-txt.mixes {
-  margin-top: 1.75%;
+  margin-top: 20%;
 }
 .nav-txt.playlists {
-  margin-top: 6%;
+  margin-top: 32%;
 }
 
 .table:hover + .nav-txt {
-  display: block;
+  opacity: 1;
+  transition: opacity 400ms ease;
 }
 
 .table.back {
@@ -68,9 +70,13 @@ export default {}
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
   .cafe {
-    border: 1px solid cyan;
+    flex-direction: column;
+  }
+  .table + .nav-txt {
+    opacity: 1;
+    transition: opacity 400ms ease;
   }
 }
 

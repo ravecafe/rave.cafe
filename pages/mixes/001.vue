@@ -3,12 +3,14 @@
     <h1 class="mu-title">001: L&D</h1>
     <img class="header-img" src="~/assets/001/000162310027.jpg" />
     <section class="player">
-      <audio controls>
-        <source
-          src="https://cafe.nyc3.digitaloceanspaces.com/Crossing%20of%20the%20Return%20Threshold.mp3"
-          type="audio/mpeg"
-        />
-      </audio>
+      <iframe
+        width="100%"
+        height="166"
+        scrolling="no"
+        frameborder="no"
+        allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1003785298&color=%232c2c2c&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"
+      ></iframe>
     </section>
     <section class="photos">
       <h3>Crossing of the Return Threshold</h3>
