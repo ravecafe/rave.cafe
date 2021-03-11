@@ -33,6 +33,8 @@
         <br />
         -
         <a
+          target="_blank"
+          rel="noreferrer"
           href="https://en.wikipedia.org/wiki/Hero's_journey#The_Crossing_of_the_Return_Threshold"
           >Joseph Campbell</a
         >
@@ -40,24 +42,29 @@
 
       <img src="~/assets/001/IMG_1076.JPG" />
       <p>
-        Recorded on 12.29.20 on 2x XDJ-700s and a Xone 23
-        <br />
-        <br />
-        We played a set at Dark Matter Immersive's Garden of Eden installation
-        at the cell. The installation is based around Joseph Campbell's The
-        Hero's Journey. The exhibition itself and 2020 were coming to a close so
-        we focused our energy on the moment in which one arrives back to
-        integrate the wisdom gained on the journey - the return threshold. How
-        do we reintegrate the wisdom we gain each day?
+        We played this set on 12.29.20 at
+        <a href="https://www.instagram.com/darkmatterimmersive/"
+          >Dark Matter Immersive</a
+        >'s Garden of Eden installation at the cell. The walking meditation is
+        an immersive exploration of
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://en.wikipedia.org/wiki/Hero%27s_journey"
+          >The Hero's Journey</a
+        >, tarot archetypes, and invites a moment of pause for self reflection
+        within the psychedelic, sculptural flourishes. The exhibition itself and
+        2020 were coming to a close. We focused our energy on channeling the
+        past year and the practice of living within the shifting reality around
+        us.
       </p>
       <img src="~/assets/001/IMG_1075.JPG" />
       <img src="~/assets/001/000162310029.jpg" />
       <p>
         Being is breathing,
         <br />
-        each day
-        <br />
-        is a threshold of becoming.
+        each day is a threshold <br />
+        of becoming.
         <br />
         The choices we make
         <br />
@@ -65,6 +72,7 @@
         <br />
         What fulfills you?
       </p>
+      <img src="~/assets/001/000162310028.jpg" />
     </section>
     <NuxtLink to="/welcome">
       <Logo height="30" />
@@ -89,6 +97,10 @@ export default {}
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+a {
+  text-decoration: underline;
 }
 
 .header-img {
@@ -132,6 +144,11 @@ export default {}
   width: 80%;
 }
 
+img:hover {
+  opacity: 0.1;
+  transition: opacity 10s ease;
+}
+
 h3 {
   font-size: 40px;
   text-align: center;
@@ -141,5 +158,6 @@ h3 {
 img {
   width: 100%;
   margin: 5% 0;
+  transition: opacity 5s ease-out;
 }
 </style>
