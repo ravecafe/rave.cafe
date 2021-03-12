@@ -3,7 +3,7 @@
     <h1 class="mu-title">playlists</h1>
     <div class="playlist-grid">
       <section>
-        <h3>001 - en3rgy</h3>
+        <h3>001 - ᴇɴ3ʀɢʏ</h3>
         <iframe
           src="https://open.spotify.com/embed/playlist/3pjWSnVMwgSU2zZo5RcRbQ"
           width="400"
@@ -14,7 +14,7 @@
         ></iframe>
       </section>
       <section>
-        <h3>002 - you ar3 here</h3>
+        <h3>002 - ʏᴏᴜ ᴀʀ3 ʜᴇʀᴇ</h3>
         <iframe
           src="https://open.spotify.com/embed/playlist/7zMpwlXpDQ8MJVuhzua1Hq"
           width="100%"
@@ -25,7 +25,7 @@
         ></iframe>
       </section>
       <section>
-        <h3>003 - the futur3 is bright</h3>
+        <h3>003 - ᴛʜᴇ ꜰᴜᴛᴜʀ3 ɪꜱ ʙʀɪɢʜᴛ</h3>
         <iframe
           src="https://open.spotify.com/embed/playlist/3Wnh0LOILg6cE6yh1VHrhl"
           width="100%"
@@ -36,7 +36,7 @@
         ></iframe>
       </section>
       <section>
-        <h3>004 - cyb0rg</h3>
+        <h3>004 - ᴄʏʙ0ʀɢ</h3>
         <iframe
           src="https://open.spotify.com/embed/playlist/5GG9VSyqpAVgaN7KjPf5Vp"
           width="100%"
@@ -47,7 +47,7 @@
         ></iframe>
       </section>
       <section>
-        <h3>005 - bre@ks</h3>
+        <h3>005 - ʙʀᴇ@ᴋꜱ</h3>
         <iframe
           src="https://open.spotify.com/embed/playlist/4HWdstRLiqAI3UhhJqNet3"
           width="100%"
@@ -58,7 +58,7 @@
         ></iframe>
       </section>
       <section>
-        <h3>006 - flo4ting</h3>
+        <h3>006 - ꜰʟᴏ@ᴛɪɴɢ</h3>
         <iframe
           src="https://open.spotify.com/embed/playlist/4UQ8FcO7DVvBDZNkWZhTZX"
           width="100%"
