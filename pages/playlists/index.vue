@@ -2,70 +2,94 @@
   <section class="container">
     <h1 class="mu-title">playlists</h1>
     <div class="playlist-grid">
-      <iframe
-        src="https://open.spotify.com/embed/playlist/3pjWSnVMwgSU2zZo5RcRbQ"
-        width="400"
-        height="400"
-        frameborder="0"
-        allowtransparency="true"
-        allow="encrypted-media"
-      ></iframe>
-      <iframe
-        src="https://open.spotify.com/embed/playlist/7zMpwlXpDQ8MJVuhzua1Hq"
-        width="100%"
-        height="400"
-        frameborder="0"
-        allowtransparency="true"
-        allow="encrypted-media"
-      ></iframe>
-      <iframe
-        src="https://open.spotify.com/embed/playlist/3Wnh0LOILg6cE6yh1VHrhl"
-        width="100%"
-        height="400"
-        frameborder="0"
-        allowtransparency="true"
-        allow="encrypted-media"
-      ></iframe>
-      <iframe
-        src="https://open.spotify.com/embed/playlist/5GG9VSyqpAVgaN7KjPf5Vp"
-        width="100%"
-        height="400"
-        frameborder="0"
-        allowtransparency="true"
-        allow="encrypted-media"
-      ></iframe>
-      <iframe
-        src="https://open.spotify.com/embed/playlist/4HWdstRLiqAI3UhhJqNet3"
-        width="100%"
-        height="400"
-        frameborder="0"
-        allowtransparency="true"
-        allow="encrypted-media"
-      ></iframe>
-      <iframe
-        src="https://open.spotify.com/embed/playlist/4UQ8FcO7DVvBDZNkWZhTZX"
-        width="100%"
-        height="400"
-        frameborder="0"
-        allowtransparency="true"
-        allow="encrypted-media"
-      ></iframe>
-      <iframe
-        src="https://open.spotify.com/embed/playlist/0hfsJTfmhxhVDyI3AHJLfE"
-        width="100%"
-        height="400"
-        frameborder="0"
-        allowtransparency="true"
-        allow="encrypted-media"
-      ></iframe>
-      <iframe
-        src="https://open.spotify.com/embed/playlist/5HYMzvn16Min60GSn3cVd5"
-        width="100%"
-        height="400"
-        frameborder="0"
-        allowtransparency="true"
-        allow="encrypted-media"
-      ></iframe>
+      <section>
+        <h3>001 - en3rgy</h3>
+        <iframe
+          src="https://open.spotify.com/embed/playlist/3pjWSnVMwgSU2zZo5RcRbQ"
+          width="400"
+          height="365"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        ></iframe>
+      </section>
+      <section>
+        <h3>002 - you ar3 here</h3>
+        <iframe
+          src="https://open.spotify.com/embed/playlist/7zMpwlXpDQ8MJVuhzua1Hq"
+          width="100%"
+          height="365"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        ></iframe>
+      </section>
+      <section>
+        <h3>003 - the futur3 is bright</h3>
+        <iframe
+          src="https://open.spotify.com/embed/playlist/3Wnh0LOILg6cE6yh1VHrhl"
+          width="100%"
+          height="365"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        ></iframe>
+      </section>
+      <section>
+        <h3>004 - cyb0rg</h3>
+        <iframe
+          src="https://open.spotify.com/embed/playlist/5GG9VSyqpAVgaN7KjPf5Vp"
+          width="100%"
+          height="365"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        ></iframe>
+      </section>
+      <section>
+        <h3>005 - bre@ks</h3>
+        <iframe
+          src="https://open.spotify.com/embed/playlist/4HWdstRLiqAI3UhhJqNet3"
+          width="100%"
+          height="365"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        ></iframe>
+      </section>
+      <section>
+        <h3>006 - flo4ting</h3>
+        <iframe
+          src="https://open.spotify.com/embed/playlist/4UQ8FcO7DVvBDZNkWZhTZX"
+          width="100%"
+          height="365"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        ></iframe>
+      </section>
+      <section>
+        <h3>007 - ᴠ0ᴄᴀʟꜱ</h3>
+        <iframe
+          src="https://open.spotify.com/embed/playlist/0hfsJTfmhxhVDyI3AHJLfE"
+          width="100%"
+          height="365"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        ></iframe>
+      </section>
+      <section>
+        <h3>008 - ᴄʜᴜʙʙʏ ꜰᴜɴᴋ</h3>
+        <iframe
+          src="https://open.spotify.com/embed/playlist/5HYMzvn16Min60GSn3cVd5"
+          width="100%"
+          height="365"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        ></iframe>
+      </section>
     </div>
     <NuxtLink to="/welcome" class="footer">
       <Logo height="30" />
@@ -87,6 +111,10 @@ export default {}
 
 .playlist-grid > iframe {
   width: 100%;
+}
+
+.playlist-grid h3 {
+  margin-bottom: 10px;
 }
 
 .mu-title {
