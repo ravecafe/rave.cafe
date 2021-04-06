@@ -1,9 +1,9 @@
 <template>
   <section class="container">
     <h1 class="mu-title">mixes</h1>
-    <ul>
+    <!-- <ul>
       <li class="mix-link">001: <NuxtLink to="/mixes/001">L&D </NuxtLink></li>
-    </ul>
+    </ul> -->
   </section>
 </template>
 

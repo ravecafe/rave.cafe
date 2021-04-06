@@ -2,7 +2,7 @@
   <section class="container">
     <h1 class="mu-title">playlists</h1>
     <div class="playlist-grid">
-      <section>
+      <!-- <section>
         <h3>001 - ᴇɴ3ʀɢʏ</h3>
         <iframe
           src="https://open.spotify.com/embed/playlist/3pjWSnVMwgSU2zZo5RcRbQ"
@@ -89,7 +89,7 @@
           allowtransparency="true"
           allow="encrypted-media"
         ></iframe>
-      </section>
+      </section> -->
     </div>
     <NuxtLink to="/welcome" class="footer">
       <Logo height="30" />
