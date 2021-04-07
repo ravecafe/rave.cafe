@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="img-wrap">
-      <NuxtLink to="/welcome">
+      <NuxtLink to="/soon">
         <Logo height="200" />
       </NuxtLink>
     </div>
