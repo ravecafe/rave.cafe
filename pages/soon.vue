@@ -54,7 +54,7 @@
         </div>
       </form>
     </div>
-    <NuxtLink to="/welcome">
+    <NuxtLink to="/">
       <Logo height="30" />
     </NuxtLink>
   </section>
