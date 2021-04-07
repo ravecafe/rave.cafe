@@ -11,7 +11,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'A gentle reminder that there are no rules',
+        content: 'a gentle reminder that there are no rules',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/rc-smile.png' }],
