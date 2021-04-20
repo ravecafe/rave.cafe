@@ -73,6 +73,7 @@ export default {}
 @media only screen and (max-width: 700px) {
   .cafe {
     flex-direction: column;
+    overflow: hidden;
   }
   .table + .nav-txt {
     opacity: 1;

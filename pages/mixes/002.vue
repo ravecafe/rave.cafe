@@ -15,7 +15,7 @@
     <section>
       <p>
         rave.cafe is an iterative digital art project intended to be an
-        extension of conversations and collaborations with friends, and an
+        extension of conversations & collaborations with friends, and an
         expression of the family we've found on the dance floor.
       </p>
       <p>
@@ -25,16 +25,15 @@
       </p>
       <p>
         the site will feature a variety of mixes, playlists, & conversations
-        with DJs, producers and musicians, and to kick it off we've asked some
-        of our friends to help us put together a radio mix of the one track they
-        are most excited to share with the world right now, and a buy music club
-        playlist of artists they want to support. it has always been our
+        with DJs, producers, & artists. to kick it off we've asked some of our
+        friends to help us put together a radio mix of the one track they are
+        most excited to share with the world right now alongside a buy music
+        club playlist of artists they want to support. it has always been our
         intention that this project grow and develop through collaboration so
         feel free to let us know if you have thoughts
         <a href="mailto:hey@rave.cafe">hey@rave.cafe</a>
       </p>
     </section>
-
     <NuxtLink to="/welcome">
       <Logo height="30" />
     </NuxtLink>
@@ -65,7 +64,7 @@ a {
 }
 
 .header-img {
-  margin: 50px 0;
+  margin: 40px 0;
 }
 
 .mu-title {
@@ -75,11 +74,10 @@ a {
   font-weight: normal;
   font-size: 60px;
   color: #fff;
-  width: 950%;
+  width: 100%;
   letter-spacing: 1px;
   mix-blend-mode: difference;
   padding: 20px;
-  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -121,13 +119,13 @@ img {
   margin: 5% 0;
   transition: opacity 5s ease-out;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 750px) {
   .mu-title {
     color: #fff;
     text-decoration: none;
     font-size: 25px;
     padding: 10px;
-    margin-bottom: 5px;
+    margin-top: 10px;
   }
   .mu-title sup {
     font-size: 18px;

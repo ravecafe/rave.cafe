@@ -28,8 +28,7 @@
         limitless when we point ourselves toward a beginner's mind where
         learning and living your truth is celebrated. Processing your pain and
         facing your fear is vital to unlocking your inherent creative, joyful
-        self. <br />
-        All is mind.
+        self. All is mind.
       </p>
     </section>
     <NuxtLink to="/welcome">
@@ -72,11 +71,10 @@ a {
   font-weight: normal;
   font-size: 60px;
   color: #fff;
-  width: 950%;
+  width: 95%;
   letter-spacing: 1px;
   mix-blend-mode: difference;
   padding: 20px;
-  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -124,7 +122,7 @@ img {
     text-decoration: none;
     font-size: 25px;
     padding: 10px;
-    margin-bottom: 5px;
+    margin-top: 10px;
   }
   .mu-title sup {
     font-size: 18px;

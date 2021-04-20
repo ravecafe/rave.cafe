@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <h1 class="mu-title">mixes</h1>
-    <ul>
+    <ul class="mix-listing">
       <li class="mix-link">
         <sup>001</sup> <NuxtLink to="/mixes/001">L&D </NuxtLink>
       </li>
@@ -9,6 +9,9 @@
         <sup>002</sup> <NuxtLink to="/mixes/002">welcome 2 the cafe </NuxtLink>
       </li>
     </ul>
+    <NuxtLink to="/welcome">
+      <Logo height="30" />
+    </NuxtLink>
   </section>
 </template>
 
@@ -28,7 +31,6 @@ export default {}
   letter-spacing: 1px;
   mix-blend-mode: difference;
   padding: 20px;
-  margin-bottom: 20px;
 }
 
 .mix-link {
@@ -39,6 +41,10 @@ export default {}
 
 .mix-link sup {
   font-size: 25px;
+}
+
+.mix-listing {
+  margin: 20px 0 40px;
 }
 
 a:hover {
