@@ -12,7 +12,7 @@
         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1032948211&color=%232c2c2c&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"
       ></iframe>
     </section>
-    <section class="photos">
+    <section>
       <p>
         rave.cafe is an iterative digital art project intended to be an
         extension of conversations and collaborations with friends, and an
@@ -103,6 +103,7 @@ a {
   display: flex;
   justify-content: center;
   width: 80%;
+  margin: 5% 0;
 }
 
 h3 {
