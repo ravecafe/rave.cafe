@@ -1,9 +1,12 @@
 <template>
   <section class="container">
     <h1 class="mu-title">mixes</h1>
-    <!-- <ul>
+    <ul>
       <li class="mix-link">001: <NuxtLink to="/mixes/001">L&D </NuxtLink></li>
-    </ul> -->
+      <li class="mix-link">
+        002: <NuxtLink to="/mixes/002">welcome 2 the cafe </NuxtLink>
+      </li>
+    </ul>
   </section>
 </template>
 

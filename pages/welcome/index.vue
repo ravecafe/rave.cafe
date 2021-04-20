@@ -2,13 +2,13 @@
   <section class="cafe">
     <div class="gradient-shift"></div>
     <div class="link-container">
-      <NuxtLink to="/" class="nav-link">
+      <NuxtLink to="/mixes" class="nav-link">
         <img class="table back" src="~/assets/rave-cafe.png" alt="cafe table" />
         <span class="nav-txt mixes">mixes</span>
       </NuxtLink>
     </div>
     <div class="link-container">
-      <NuxtLink to="/" class="nav-link">
+      <NuxtLink to="/playlists" class="nav-link">
         <img class="table" src="~/assets/rave-cafe.png" alt="cafe table" />
         <span class="nav-txt playlists">playlists</span>
       </NuxtLink>

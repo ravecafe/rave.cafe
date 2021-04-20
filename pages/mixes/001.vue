@@ -1,7 +1,7 @@
 <template>
   <section class="threshold">
     <h1 class="mu-title">001: L&D</h1>
-    <img class="header-img" src="~/assets/001/000162310027.jpg" />
+    <img class="header-img" src="~/assets/welcome/mix001.jpg" />
     <section class="player">
       <iframe
         width="100%"
@@ -13,66 +13,23 @@
       ></iframe>
     </section>
     <section class="photos">
-      <h3>Crossing of the Return Threshold</h3>
       <p>
-        "Many failures attest to the difficulties of this life-affirmative
-        threshold. The first problem of the returning hero is to accept as real,
-        after an experience of the soul-satisfying vision of fulfillment, the
-        passing joys and sorrows, banalities and noisy obscenities of life. Why
-        re-enter such a world? Why attempt to make plausible, or even
-        interesting, to men and women consumed with passion, the experience of
-        transcendental bliss? As dreams that were momentous by night may seem
-        simply silly in the light of day, so the poet and the prophet can
-        discover themselves playing the idiot before a jury of sober eyes. The
-        easy thing is to commit the whole community to the devil and retire
-        again into the heavenly rock dwelling, close the door, and make it fast.
-        But if some spiritual obstetrician has drawn the shimenawa across the
-        retreat, then the work of representing eternity in time, and perceiving
-        in time eternity, cannot be avoided."
-        <br />
-        <br />
-        -
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://en.wikipedia.org/wiki/Hero's_journey#The_Crossing_of_the_Return_Threshold"
-          >Joseph Campbell</a
-        >
-      </p>
-
-      <img src="~/assets/001/IMG_1076.JPG" />
-      <p>
-        We played this set on 12.29.20 at
+        We streamed this set on 12.29.20 at
         <a href="https://www.instagram.com/darkmatterimmersive/"
           >Dark Matter Immersive</a
-        >'s Garden of Eden installation at the cell. The walking meditation is
-        an immersive exploration of
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://en.wikipedia.org/wiki/Hero%27s_journey"
-          >The Hero's Journey</a
-        >, tarot archetypes, and invites a moment of pause for self reflection
-        within the psychedelic, sculptural flourishes. The exhibition itself and
-        2020 were coming to a close. We focused our energy on channeling the
-        past year and the practice of living within the shifting reality around
-        us.
+        >'s Garden of Eden installation at the cell.
       </p>
-      <img src="~/assets/001/IMG_1075.JPG" />
-      <img src="~/assets/001/000162310029.jpg" />
       <p>
-        Being is breathing,
-        <br />
-        each day is a threshold <br />
-        of becoming.
-        <br />
-        The choices we make
-        <br />
-        ripple ever outward.
-        <br />
-        What fulfills you?
+        The isolation of the past year resulting from a global pandemic that
+        accelerated the fissures of a system built on white supermacy,
+        individualism, and extraction has led us to go deep within ourselves and
+        touch our truths. We are one with nature and not separate from it. We
+        manifest our reality through our thoughts which respond to our
+        environment. Our nature is limitless when we point ourselves toward a
+        beginner's mind where learning and living your turth is celebrated.
+        Processing your pain and facing your fear is vital to unlocking your
+        inherent creative, joyful self. All is mind.
       </p>
-      <img src="~/assets/001/000162310028.jpg" />
     </section>
     <NuxtLink to="/welcome">
       <Logo height="30" />
@@ -142,11 +99,6 @@ a {
   display: flex;
   justify-content: center;
   width: 80%;
-}
-
-img:hover {
-  opacity: 0.1;
-  transition: opacity 10s ease;
 }
 
 h3 {

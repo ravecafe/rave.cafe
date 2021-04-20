@@ -1,96 +1,24 @@
 <template>
   <section class="container">
     <h1 class="mu-title">playlists</h1>
-    <div class="playlist-grid">
-      <!-- <section>
-        <h3>001 - ᴇɴ3ʀɢʏ</h3>
+    <ul class="playlist-grid">
+      <li class="mix-link">
         <iframe
-          src="https://open.spotify.com/embed/playlist/3pjWSnVMwgSU2zZo5RcRbQ"
-          width="400"
-          height="365"
-          frameborder="0"
-          allowtransparency="true"
-          allow="encrypted-media"
-        ></iframe>
-      </section>
-      <section>
-        <h3>002 - ʏᴏᴜ ᴀʀ3 ʜᴇʀᴇ</h3>
-        <iframe
-          src="https://open.spotify.com/embed/playlist/7zMpwlXpDQ8MJVuhzua1Hq"
+          src="https://www.buymusic.club/embed/ravecafe-circle-with-upper-right-quadrantlower-half-circlecircle-with-upper-right-quadrant-001-landd"
+          height="500"
           width="100%"
-          height="365"
           frameborder="0"
-          allowtransparency="true"
-          allow="encrypted-media"
         ></iframe>
-      </section>
-      <section>
-        <h3>003 - ᴛʜᴇ ꜰᴜᴛᴜʀ3 ɪꜱ ʙʀɪɢʜᴛ</h3>
+      </li>
+      <li class="mix-link">
         <iframe
-          src="https://open.spotify.com/embed/playlist/3Wnh0LOILg6cE6yh1VHrhl"
+          src="https://www.buymusic.club/embed/ravecafe-circle-with-upper-right-quadrantlower-half-circlecircle-with-upper-right-quadrant-002-welcome-to-the-cafe"
+          height="500"
           width="100%"
-          height="365"
           frameborder="0"
-          allowtransparency="true"
-          allow="encrypted-media"
         ></iframe>
-      </section>
-      <section>
-        <h3>004 - ᴄʏʙ0ʀɢ</h3>
-        <iframe
-          src="https://open.spotify.com/embed/playlist/5GG9VSyqpAVgaN7KjPf5Vp"
-          width="100%"
-          height="365"
-          frameborder="0"
-          allowtransparency="true"
-          allow="encrypted-media"
-        ></iframe>
-      </section>
-      <section>
-        <h3>005 - ʙʀᴇ@ᴋꜱ</h3>
-        <iframe
-          src="https://open.spotify.com/embed/playlist/4HWdstRLiqAI3UhhJqNet3"
-          width="100%"
-          height="365"
-          frameborder="0"
-          allowtransparency="true"
-          allow="encrypted-media"
-        ></iframe>
-      </section>
-      <section>
-        <h3>006 - ꜰʟᴏ@ᴛɪɴɢ</h3>
-        <iframe
-          src="https://open.spotify.com/embed/playlist/4UQ8FcO7DVvBDZNkWZhTZX"
-          width="100%"
-          height="365"
-          frameborder="0"
-          allowtransparency="true"
-          allow="encrypted-media"
-        ></iframe>
-      </section>
-      <section>
-        <h3>007 - ᴠ0ᴄᴀʟꜱ</h3>
-        <iframe
-          src="https://open.spotify.com/embed/playlist/0hfsJTfmhxhVDyI3AHJLfE"
-          width="100%"
-          height="365"
-          frameborder="0"
-          allowtransparency="true"
-          allow="encrypted-media"
-        ></iframe>
-      </section>
-      <section>
-        <h3>008 - ᴄʜᴜʙʙʏ ꜰᴜɴᴋ</h3>
-        <iframe
-          src="https://open.spotify.com/embed/playlist/5HYMzvn16Min60GSn3cVd5"
-          width="100%"
-          height="365"
-          frameborder="0"
-          allowtransparency="true"
-          allow="encrypted-media"
-        ></iframe>
-      </section> -->
-    </div>
+      </li>
+    </ul>
     <NuxtLink to="/welcome" class="footer">
       <Logo height="30" />
     </NuxtLink>
@@ -105,12 +33,8 @@ export default {}
 .playlist-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-}
-
-.playlist-grid > iframe {
-  width: 100%;
+  /* grid-column-gap: 20px;
+  grid-row-gap: 20px; */
 }
 
 .playlist-grid h3 {
