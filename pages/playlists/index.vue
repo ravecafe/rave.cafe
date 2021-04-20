@@ -4,7 +4,7 @@
     <ul class="playlist-grid">
       <li class="mix-link">
         <iframe
-          src="https://www.buymusic.club/embed/ravecafe-circle-with-upper-right-quadrantlower-half-circlecircle-with-upper-right-quadrant-001-landd"
+          src="https://www.buymusic.club/embed/ravecafe-circle-with-upper-right-quadrantlower-half-circlecircle-with-upper-right-quadrant-002-welcome-to-the-cafe"
           height="500"
           width="100%"
           frameborder="0"
@@ -12,7 +12,7 @@
       </li>
       <li class="mix-link">
         <iframe
-          src="https://www.buymusic.club/embed/ravecafe-circle-with-upper-right-quadrantlower-half-circlecircle-with-upper-right-quadrant-002-welcome-to-the-cafe"
+          src="https://www.buymusic.club/embed/ravecafe-circle-with-upper-right-quadrantlower-half-circlecircle-with-upper-right-quadrant-001-landd"
           height="500"
           width="100%"
           frameborder="0"
@@ -32,9 +32,11 @@ export default {}
 <style scoped>
 .playlist-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  /* grid-column-gap: 20px;
-  grid-row-gap: 20px; */
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  max-width: 600px;
+  width: 80%;
 }
 
 .playlist-grid h3 {

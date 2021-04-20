@@ -1,6 +1,6 @@
 <template>
   <section class="threshold">
-    <h1 class="mu-title">002: welcome 2 the cafe</h1>
+    <h1 class="mu-title"><sup>002</sup> welcome 2 the cafe</h1>
     <img class="header-img" src="~/assets/welcome/welcome.jpg" />
     <section class="player">
       <iframe
@@ -73,14 +73,18 @@ a {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: normal;
-  font-size: 80px;
+  font-size: 60px;
   color: #fff;
-  width: 80%;
+  width: 950%;
   letter-spacing: 1px;
   mix-blend-mode: difference;
   padding: 20px;
   margin-bottom: 20px;
   text-align: center;
+}
+
+.mu-title sup {
+  font-size: 25px;
 }
 
 .threshold p {
@@ -116,5 +120,17 @@ img {
   width: 100%;
   margin: 5% 0;
   transition: opacity 5s ease-out;
+}
+@media only screen and (max-width: 700px) {
+  .mu-title {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  .mu-title sup {
+    font-size: 18px;
+  }
 }
 </style>

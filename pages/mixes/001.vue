@@ -1,6 +1,6 @@
 <template>
   <section class="threshold">
-    <h1 class="mu-title">001: L&D</h1>
+    <h1 class="mu-title"><sup>001</sup> L&D</h1>
     <img class="header-img" src="~/assets/welcome/mix001.jpg" />
     <section class="player">
       <iframe
@@ -22,13 +22,14 @@
       <p>
         The isolation of the past year resulting from a global pandemic that
         accelerated the fissures of a system built on white supermacy,
-        individualism, and extraction has led us to go deep within ourselves and
-        touch our truths. We are one with nature and not separate from it. We
-        manifest our reality through our thoughts which respond to our
-        environment. Our nature is limitless when we point ourselves toward a
-        beginner's mind where learning and living your turth is celebrated.
-        Processing your pain and facing your fear is vital to unlocking your
-        inherent creative, joyful self. All is mind.
+        individualism, and extraction has led us to go deep within ourselves. We
+        are one with nature and not separate from it. We manifest our reality
+        through our thoughts which respond to our environment. Our nature is
+        limitless when we point ourselves toward a beginner's mind where
+        learning and living your truth is celebrated. Processing your pain and
+        facing your fear is vital to unlocking your inherent creative, joyful
+        self. <br />
+        All is mind.
       </p>
     </section>
     <NuxtLink to="/welcome">
@@ -69,14 +70,18 @@ a {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: normal;
-  font-size: 80px;
+  font-size: 60px;
   color: #fff;
-  width: 80%;
+  width: 950%;
   letter-spacing: 1px;
   mix-blend-mode: difference;
   padding: 20px;
   margin-bottom: 20px;
   text-align: center;
+}
+
+.mu-title sup {
+  font-size: 25px;
 }
 
 .threshold p {
@@ -93,6 +98,7 @@ a {
   flex-direction: column;
   justify-content: center;
   padding-bottom: 10%;
+  margin-top: 4%;
 }
 
 .player {
@@ -111,5 +117,17 @@ img {
   width: 100%;
   margin: 5% 0;
   transition: opacity 5s ease-out;
+}
+@media only screen and (max-width: 700px) {
+  .mu-title {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  .mu-title sup {
+    font-size: 18px;
+  }
 }
 </style>

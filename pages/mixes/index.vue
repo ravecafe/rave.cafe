@@ -2,9 +2,11 @@
   <section class="container">
     <h1 class="mu-title">mixes</h1>
     <ul>
-      <li class="mix-link">001: <NuxtLink to="/mixes/001">L&D </NuxtLink></li>
       <li class="mix-link">
-        002: <NuxtLink to="/mixes/002">welcome 2 the cafe </NuxtLink>
+        <sup>001</sup> <NuxtLink to="/mixes/001">L&D </NuxtLink>
+      </li>
+      <li class="mix-link">
+        <sup>002</sup> <NuxtLink to="/mixes/002">welcome 2 the cafe </NuxtLink>
       </li>
     </ul>
   </section>
@@ -35,7 +37,22 @@ export default {}
   font-size: 50px;
 }
 
+.mix-link sup {
+  font-size: 25px;
+}
+
 a:hover {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 700px) {
+  .mix-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .mix-link sup {
+    font-size: 18px;
+  }
 }
 </style>
