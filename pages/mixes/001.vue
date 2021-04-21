@@ -21,7 +21,7 @@
       </p>
       <p>
         The isolation of the past year resulting from a global pandemic that
-        accelerated the fissures of a system built on white supermacy,
+        accelerated the fissures of a system built on white supremacy,
         individualism, and extraction has led us to go deep within ourselves. We
         are one with nature and not separate from it. We manifest our reality
         through our thoughts which respond to our environment. Our nature is
